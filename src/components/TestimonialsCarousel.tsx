@@ -46,14 +46,14 @@ const TestimonialsCarousel = () => {
       <button
         onClick={prev}
         aria-label="Depoimento anterior"
-        className="absolute left-0 md:-left-6 top-1/2 -translate-y-1/2 bg-primary hover:bg-primary-dark text-white rounded-full p-3 shadow-lg transition-colors"
+        className="absolute left-0 md:-left-6 top-1/2 -translate-y-1/2 bg-transparent hover:bg-white/10 text-white rounded-full p-3 transition-colors"
       >
         <ChevronLeft className="w-6 h-6" />
       </button>
       <button
         onClick={next}
         aria-label="Próximo depoimento"
-        className="absolute right-0 md:-right-6 top-1/2 -translate-y-1/2 bg-primary hover:bg-primary-dark text-white rounded-full p-3 shadow-lg transition-colors"
+        className="absolute right-0 md:-right-6 top-1/2 -translate-y-1/2 bg-transparent hover:bg-white/10 text-white rounded-full p-3 transition-colors"
       >
         <ChevronRight className="w-6 h-6" />
       </button>
