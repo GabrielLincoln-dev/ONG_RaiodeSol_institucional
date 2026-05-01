@@ -113,6 +113,7 @@ const Index = () => {
             loading="lazy"
           />
         </div>
+        </div>
       </section>
 
       {/* Jornais Históricos */}
