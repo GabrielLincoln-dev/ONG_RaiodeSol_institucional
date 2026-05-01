@@ -4,6 +4,7 @@ import arrecadacao from "@/assets/arrecadacao-alimentos.png";
 import parceiros from "@/assets/parceiros.png";
 import TestimonialsCarousel from "@/components/TestimonialsCarousel";
 import NewspaperCarousel from "@/components/NewspaperCarousel";
+import WorkCarousel from "@/components/WorkCarousel";
 
 const WHATSAPP_URL = "https://wa.me/5511964181997";
 
@@ -90,8 +91,17 @@ const Index = () => {
         </div>
       </section>
 
-      {/* Parceiros */}
+      {/* Nosso Trabalho */}
       <section className="container py-20">
+        <h2 className="text-3xl md:text-5xl font-heading font-extrabold text-center mb-12">
+          Nosso Trabalho
+        </h2>
+        <WorkCarousel />
+      </section>
+
+      {/* Parceiros */}
+      <section className="bg-secondary/40 py-20">
+        <div className="container">
         <h2 className="text-3xl md:text-5xl font-heading font-extrabold text-center mb-12">
           Nossos Parceiros
         </h2>
